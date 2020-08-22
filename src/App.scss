@@ -15,4 +15,9 @@
          margin-left: 150px;
      }
  }
+ .body-container {
+     margin-top: 50px;
+     display: grid;
+     grid-template-columns: 20% 80%;
+ }
 }

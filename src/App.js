@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import axios from 'axios';
 import './App.scss';
+import Users from './Users';
+import SideBar from './SideBar';
 
 class App extends Component {
   constructor(props) {
@@ -26,9 +28,12 @@ class App extends Component {
             Social Media
           </p>
         </div>
-        {
-          this.state.users.map(user => <div>{user.first_name}</div>)
-        }
+        <div className="body-container">
+          <SideBar />
+          <Users 
+            users={this.state.users}
+          />
+        </div>
       </div>
     ); 
   }
