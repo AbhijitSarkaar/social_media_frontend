@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import axios from 'axios';
-import './App.css';
+import './App.scss';
 
 class App extends Component {
   constructor(props) {
@@ -21,6 +21,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <div className="header">
+          <p className="header-text">
+            Social Media
+          </p>
+        </div>
         {
           this.state.users.map(user => <div>{user.first_name}</div>)
         }
