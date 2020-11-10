@@ -4,6 +4,7 @@ import './App.scss';
 import Users from './components/Users';
 import SideBar from './components/SideBar';
 import LogIn from './components/LogIn';
+import SignUp from './components/SignUp';
 
 class App extends Component {
 	constructor(props) {
@@ -30,7 +31,8 @@ class App extends Component {
 					{/* <SideBar /> */}
 					{/* <Users users={this.state.users} /> */}
 				</div>
-				<LogIn />
+				{/* <LogIn /> */}
+				<SignUp />
 			</div>
 		);
 	}
