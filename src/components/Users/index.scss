@@ -1,0 +1,11 @@
+.users-container {
+    .users-table-header {
+        height: 50px;
+        width: 100%;
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(3, 33%);
+        margin-left: 10px;
+        background-color: rgb(235, 209, 209);
+    }   
+}
