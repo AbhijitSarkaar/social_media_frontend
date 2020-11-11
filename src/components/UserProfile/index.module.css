@@ -1,0 +1,26 @@
+.profileContainer {
+    height: auto;
+    width: 50%;
+    border: 1px solid;
+    margin: auto;
+}
+
+.profileHeaderText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.profileContainerFields {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.textField {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

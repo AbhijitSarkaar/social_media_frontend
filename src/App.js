@@ -5,6 +5,7 @@ import Users from './components/Users';
 import SideBar from './components/SideBar';
 import LogIn from './components/LogIn';
 import SignUp from './components/SignUp';
+import UserProfile from './components/UserProfile';
 
 class App extends Component {
 	constructor(props) {
@@ -32,7 +33,8 @@ class App extends Component {
 					{/* <Users users={this.state.users} /> */}
 				</div>
 				{/* <LogIn /> */}
-				<SignUp />
+				{/* <SignUp /> */}
+				<UserProfile />
 			</div>
 		);
 	}
